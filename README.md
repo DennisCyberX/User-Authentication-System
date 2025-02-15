@@ -1,17 +1,16 @@
+# User Authentication System
 
-# Web Application Firewall (WAF)
+![Authentication](https://img.shields.io/badge/User-Authentication-blue)
 
-![WAF](https://img.shields.io/badge/Web-Application_Firewall-blue)
-
-A lightweight Web Application Firewall (WAF) that protects web applications from SQL injection, XSS, and DDoS attacks.
+A secure and scalable user authentication system with support for password hashing, JWT, OAuth2, and MFA.
 
 ## Features
-- **SQL Injection Detection:** Block malicious SQL queries.
-- **XSS Detection:** Prevent Cross-Site Scripting attacks.
-- **DDoS Protection:** Implement rate limiting and IP blocking.
-- **Custom Rules:** Define custom security rules.
+- **Password Hashing:** Securely hash passwords using bcrypt.
+- **JWT Authentication:** Generate and verify JSON Web Tokens.
+- **OAuth2 Integration:** Log in with Google, GitHub, etc.
+- **MFA:** Add an extra layer of security with TOTP.
 
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/DennisCyberX/Web-Application-Firewall.git
+   git clone https://github.com/DennisCyberX/User-Authentication-System.git
